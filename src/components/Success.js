@@ -1,8 +1,8 @@
-import './Success.css';
-
+import React from "react";
+import "./Success.css";
 
 function success() {
-    return(<div className="success-page">Success Page!</div>);
+  return <div className="success-page">Success Page!</div>;
 }
 
 export default success;
