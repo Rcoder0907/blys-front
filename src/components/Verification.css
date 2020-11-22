@@ -1,37 +1,37 @@
 .verification {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .errorSms {
-    color: red;
+  color: red;
 }
 .error {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
 .valid {
-    border: 1px solid green;
+  border: 1px solid green;
 }
 .input-box {
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    font-size: 35px;
-    margin: 5px;
-    border-radius: 10px;
-    outline: none;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 35px;
+  margin: 5px;
+  border-radius: 10px;
+  outline: none;
 }
 
 .submit-button {
-    width: 250px;
-    font-size: 30px;
-    background:#0f0245;
-    padding: 10px;
-    border-radius: 10px;
-    color: white;
-    outline: none;
-    text-transform: uppercase;
+  width: 250px;
+  font-size: 30px;
+  background: #0f0245;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  text-transform: uppercase;
 }
