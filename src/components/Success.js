@@ -2,7 +2,7 @@ import React from "react";
 import "./Success.css";
 
 function success() {
-  return <div className="success-page">Success Page!</div>;
+  return <h1 className="success-page">Success Page!</h1>;
 }
 
 export default success;

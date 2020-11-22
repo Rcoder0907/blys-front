@@ -74,7 +74,7 @@ function Verification() {
   return (
     <div className="verification">
       {errorMessage && <div className="errorSms">{errorMessage}</div>}
-      <h3>Verification code:</h3>
+      <h1>Verification code:</h1>
       <input
         defaultValue={digit1}
         onChange={(event) => updateValue(event, setDigit1, digit2Input)}
