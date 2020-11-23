@@ -1,8 +1,47 @@
-# Getting Started with Create React App
+# Verification code app
+Verification code app. To run the code  start backend application running and follow the bellow steps.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Clone the repository
+```
+https://github.com/Rcoder0907/blys-front.git front
+```
+## Go to project directory
+```
+cd front
+```
+### Install dependency
+```
+yarn install
+```
+## Configure API URL
+file `src/config.js`
+```js
+const Config = {
+  url: "http://localhost:3001", // Provide backend api url
+};
+```
+## Run app
+```
+yarn start
+```
+The application will start running at `http://localhost:3000`
 
-## Available Scripts
+## Test App
+```
+yarn run test
+```
+## Linter check
+```
+yarn run lint
+```
+## Build the application
+```
+npm run build
+```
+
+
+
+## More details Available Scripts
 
 In the project directory, you can run:
 
