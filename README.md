@@ -36,7 +36,7 @@ yarn run lint
 ```
 ## Build the application
 ```
-npm run build
+yarn run build
 ```
 
 
