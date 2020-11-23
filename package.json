@@ -21,7 +21,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
-    "cy:run": "cypress open",
+    "cy:run": "cypress run",
     "test:e2e": "start-server-and-test :3000 cy:run"
   },
   "eslintConfig": {
