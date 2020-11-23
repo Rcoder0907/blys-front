@@ -23,7 +23,6 @@ function Verification() {
   let history = useHistory();
 
   const submitCode = async () => {
-    digit1Input.current.focus();
     const code = [digit1, digit2, digit3, digit4, digit5, digit6]
       .filter((d) => d !== null)
       .join("");
